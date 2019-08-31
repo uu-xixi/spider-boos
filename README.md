@@ -1,5 +1,5 @@
 ## 爬取结果如图
-    ![image](https://github.com/LuckyMango/spider-boos/master/img.jpg)
+    ![image](https://github.com/LuckyMango/spider-boos/blob/master/img.jpg)
 
 ## 项目说明 
     项目为本人业余写的Boss直聘爬虫，爬取Boss直聘上面所有的招聘信息。包含以下内容
