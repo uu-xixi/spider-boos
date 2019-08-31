@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.shierblog.spider_zhiping.Dao.JobInfoDao">
+    <!--保存电影信息-->
+    <insert id="saveJobInfo" parameterType="json">
+        INSERT INTO `changsha_job_info`
+        (
+          `company_name`
+        , `salary`
+        , `least_money`
+        , `max_money`
+        , `job_name`
+        , `experience`
+        , `status`
+        , `city`
+        , `least_experience`
+        , `max_experience`
+        , `degree`
+        , `human_resources`
+        , `financing`
+        , `scale`
+        , `least_people`
+        , `max_people`
+        , `detail`
+        , `website`
+        , `work_info`
+        , `company_info`
+        , `legal_person`
+        , `registered_fund`
+        , `established_time`
+        , `company_type`
+        , `manage_state`
+        , `company_address`
+        , `publish_time`
+        , `url`
+        , `create_time`
+        )VALUES
+        (
+
+          #{companyName}
+        , #{salary}
+        , #{leastMoney}
+        , #{maxMoney}
+        , #{jobName}
+        , #{experience}
+        , #{status}
+        , #{city}
+        , #{leastExperience}
+        , #{maxExperience}
+        , #{degree}
+        , #{humanResources}
+        , #{financing}
+        , #{scale}
+        , #{leastPeople}
+        , #{maxPeople}
+        , #{detail}
+        , #{website}
+        , #{workInfo}
+        , #{companyInfo}
+        , #{legalPerson}
+        , #{registeredFund}
+        , #{establishedTime}
+        , #{companyType}
+        , #{manageState}
+        , #{companyAddress}
+        , #{publishTime}
+        , #{url}
+        , NOW()
+        )
+
+    </insert>
+   </mapper>
